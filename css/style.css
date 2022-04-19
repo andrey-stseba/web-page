@@ -36,20 +36,28 @@
   display: block;
 }
 
-._icon-fb:before {
+._icon-viber:before {
   content: "\e900";
 }
 
-._icon-twitter:before {
-  content: "\e901";
+._icon-phone:before {
+  content: "\e942";
 }
 
-._icon-insta:before {
-  content: "\e902";
+._icon-email:before {
+  content: "\e945";
 }
 
-._icon-linkedin:before {
-  content: "\e903";
+._icon-facebook:before {
+  content: "\ea91";
+}
+
+._icon-telegram:before {
+  content: "\ea95";
+}
+
+._icon-skype:before {
+  content: "\eac5";
 }
 
 * {
@@ -470,6 +478,20 @@ body._lock {
   transition: color 0.3s ease 0s;
   margin-bottom: 10px;
   color: inherit;
+}
+
+.blog__article-name_contact-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 42px;
+}
+
+.blog__article-name_contact-link span {
+  margin-left: calc(15px + 15 * ((100vw - 320px) / 832));
 }
 
 .blog__item {

@@ -4,10 +4,11 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.min.css?_v=20220417174642" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20220419143248" />
   <link rel="shortcut icon" href="favicon.ico" />
   <title>HomePage</title>
 </head>
+
 
   <body>
     <div class="wrapper">
@@ -31,11 +32,12 @@
               >Works</a
             >
           </li>
-          <li>
+          <!--On development stage 
+						<li>
             <a class="menu__link " href="./blog.html"
               >Blog</a
             >
-          </li>
+          </li> -->
           <li>
             <a class="menu__link " href="./contact.html"
               >Contact</a
@@ -59,7 +61,13 @@
                 main task is to accurately convey in the layout what the
                 designer created, as well as to implement custom logic.
               </div>
-              <a href="#" class="hello__btn btn">Download Resume</a>
+              <a
+                href="mailto:scebaandru@gmail.com"
+                target="_blank"
+                title="If you have any questions, please send me a message to scebaandru@gmail.com"
+                class="hello__btn btn"
+                >Send a message</a
+              >
             </div>
             <div class="hello__avatar">
               <picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.jpg" alt="avatar" /></picture>
@@ -69,37 +77,52 @@
         <section class="recent-posts">
           <div class="recent-posts__container _container">
             <div class="recent-posts__header">
-              <div class="recent-posts__title title-posts">Recent posts</div>
-              <a href="" class="recent-posts__view-all">View all</a>
+              <div class="recent-posts__title title-posts">
+                Interesting articles
+              </div>
+              <!-- <a href="" class="recent-posts__view-all">View all</a> -->
             </div>
             <div class="recent-posts__items">
               <div class="recent-posts__column">
                 <article class="recent-posts__item recent-post">
-                  <a href="#" class="recent-post__title">
-                    Making a design system from scratch
+                  <a
+                    href="https://www.internetlivestats.com/"
+                    target="_blank"
+                    class="recent-post__title"
+                  >
+                    Internet Live Stats
                   </a>
                   <div class="recent-post__info">
-                    12 Feb 2020 <span>|</span> Design, Pattern
+                    2022 <span>|</span> Site layout
                   </div>
                   <div class="recent-post__text text">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                    There are over 1.5 billion websites on the world wide web
+                    today. Of these, less than 200 million are active. The
+                    milestone of 1 billion websites was first reached in
+                    September of 2014, as confirmed by NetCraft in its October
+                    2014 Web Server Survey and first estimated and announced by
+                    Internet Live Stats
                   </div>
                 </article>
               </div>
               <div class="recent-posts__column">
                 <article class="recent-posts__item recent-post">
-                  <a href="#" class="recent-post__title">
-                    Creating pixel perfect icons in Figma
+                  <a
+                    href="https://designshack.net/articles/layouts/10-rock-solid-website-layout-examples/"
+                    target="_blank"
+                    class="recent-post__title"
+                  >
+                    Rock solid Website Layout Examples
                   </a>
                   <div class="recent-post__info">
-                    12 Feb 2020 <span>|</span> Design, Pattern
+                    4 APR 2022 <span>|</span> WEB DESIGN
                   </div>
                   <div class="recent-post__text text">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                    Layout can both be one of the easiest and one of the
+                    trickiest facets of web design. Sometimes a designer can
+                    bust out an amazing layout in minutes and sometimes that
+                    same designer can struggle for the better part of day with
+                    the same task.
                   </div>
                 </article>
               </div>
@@ -128,12 +151,12 @@
                   </a>
                   <div class="works__info">
                     <div class="works__year">2021</div>
-                    <div class="works__category">Website</div>
+                    <div class="works__category">Website business card</div>
                   </div>
                   <div class="works__text text">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                    Layout of business card sites that represent a certain
+                    company, individual or product. Restrained design, business
+                    style, consisting of 3-6 pages.
                   </div>
                 </div>
               </article>
@@ -155,12 +178,12 @@
                   </a>
                   <div class="works__info">
                     <div class="works__year">2021</div>
-                    <div class="works__category">Website</div>
+                    <div class="works__category">Landing page</div>
                   </div>
                   <div class="works__text text">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                    Landing page - a site consisting of one page, the main
+                    purpose of which is to acquaint the user with the product,
+                    interest him and get contact information from the user.
                   </div>
                 </div>
               </article>
@@ -182,12 +205,13 @@
                   </a>
                   <div class="works__info">
                     <div class="works__year">2022</div>
-                    <div class="works__category">Website</div>
+                    <div class="works__category">Online store</div>
                   </div>
                   <div class="works__text text">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                    Layout of a full-fledged website of an online store. It
+                    includes the layout of individual pages of the catalog with
+                    a product filter, product cards, baskets, and so on. With
+                    the use of spolers, sliders, tooltips.
                   </div>
                 </div>
               </article>
@@ -198,17 +222,33 @@
       <footer class="footer">
   <div class="footer__content _container">
     <div class="footer__social social">
-      <a href="" class="social__item _icon-fb"></a>
-      <a href="" class="social__item _icon-insta"></a>
-      <a href="" class="social__item _icon-twitter"></a>
-      <a href="" class="social__item _icon-linkedin"></a>
+      <a
+        href="https://www.facebook.com/scebaandru"
+        target="_blank"
+        class="social__item _icon-facebook"
+      ></a>
+      <a
+        href="viber://chat?number=%2B380632896840"
+        target="_blank"
+        class="social__item _icon-viber"
+      ></a>
+      <a
+        href="https://t.me/andrey_stseba"
+        target="_blank"
+        class="social__item _icon-telegram"
+      ></a>
+      <a
+        href="https://join.skype.com/invite/H64apT6YlLUm"
+        target="_blank"
+        class="social__item _icon-skype"
+      ></a>
     </div>
-    <div class="footer__copy">Copyright ©2020 All rights reserved</div>
+    <div class="footer__copy">Copyright ©2022 All rights reserved</div>
   </div>
 </footer>
 
     </div>
 
-    <script src="js/app.min.js?_v=20220417174642"></script>
+    <script src="js/app.min.js?_v=20220419143248"></script>
   </body>
 </html>
